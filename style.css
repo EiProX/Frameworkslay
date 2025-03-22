@@ -127,4 +127,32 @@
     flex-wrap: nowrap;
 }
 
+@media screen and (max-width: 768px) {
+    .container {
+        margin-left: 10px;
+        margin-right: 10px;
+        padding-left: 0;
+        padding-right: 0;
+    }
 
+    .demo-row {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .demo-elt {
+        width: 100%;
+    }
+
+    .fiche-css {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .width-block,
+    .opacity-block,
+    button {
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+}
