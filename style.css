@@ -127,22 +127,4 @@
     flex-wrap: nowrap;
 }
 
-@media (max-width: 768px) {
-    .hero {
-        padding: 60px 15px;
-    }
 
-    .hero button {
-        font-size: 14px;
-        padding: 10px;
-    }
-
-    .feature-card {
-        width: 100%;
-        margin-bottom: 10px;
-    }
-
-    .card {
-        width: 100%;
-    }
-}
