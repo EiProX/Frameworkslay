@@ -1,0 +1,128 @@
+* {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 40px 20px;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        #h1 {
+            background-color: crimson;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 10px;
+            width: fit-content;
+            margin: 0 auto 40px auto;
+            text-align: center;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .demo-row {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            gap: 30px;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+        }
+
+        .fiche-css {
+            background-color: #1e1e1e;
+            color: #eee;
+            padding: 15px 20px;
+            border-radius: 10px;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+            white-space: pre-line;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            width: 300px;
+            flex-shrink: 0;
+        }
+
+        .demo-elt {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            width: auto;
+            height: auto;
+        }
+
+        button {
+            padding: 12px 20px;
+            border: none;
+            border-radius: 50px;
+            font-size: 16px;
+            font-weight: bold;
+            color: white;
+            cursor: pointer;
+            transition: transform 0.2s ease;
+            max-width: 200px;
+            white-space: nowrap;
+        }
+
+        button:hover {
+            transform: scale(1.05);
+        }
+
+        #button1 { background-color: purple; }
+        #button2 { background-color: pink; border: 3px dashed greenyellow; color: black; border-radius: 25%; }
+        #button3 { background-color: blue; }
+        #button4 { background-color: darkblue; }
+
+        #Color1, #Color2, #Color3 {
+            width: 100px;
+            height: 100px;
+            border-radius: 12px;
+        }
+
+        #Color1 { background-color: blueviolet; }
+        #Color2 { background-color: aqua; }
+        #Color3 { background-color: red; }
+
+        .width-block {
+            height: 40px;
+            border-radius: 10px;
+            text-align: center;
+            line-height: 40px;
+            color: white;
+            font-weight: bold;
+            width: fit-content;
+            padding: 0 20px;
+        }
+
+        #width25 { background-color: green; }
+        #width50 { background-color: blue; }
+        #width75 { background-color: purple; }
+        #width100 { background-color: orange; width: 100%; }
+        #widthauto { background-color: red; }
+
+        .opacity-block {
+            width: 200px;
+            height: 40px;
+            border-radius: 8px;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+            line-height: 40px;
+            background-color: blue;
+        }
+
+.container {
+    max-width: 1200px;
+    margin-left: 60px; 
+    margin-right: auto;
+}
+        
+
+.demo-row {
+    flex-wrap: nowrap;
+}
